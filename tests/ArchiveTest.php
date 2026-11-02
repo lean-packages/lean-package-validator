@@ -155,7 +155,7 @@ class ArchiveTest extends TestCase
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/15')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/15')]
     public function compareArchiveThrowsExpectedExceptionWhenLicenseFileIsMissing(): void
     {
         $fixturesDirectory = __DIR__ . DIRECTORY_SEPARATOR . 'fixtures';
@@ -172,7 +172,7 @@ class ArchiveTest extends TestCase
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/15')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/15')]
     public function compareArchiveDoesNotThrowsExceptionOnPresentLicenseFile(): void
     {
         $fixturesDirectory = __DIR__ . DIRECTORY_SEPARATOR . 'fixtures';

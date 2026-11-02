@@ -892,7 +892,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/5')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/5')]
     public function varyingOrderDoesNotFailCompletenessCheck(): void
     {
         $artifactFilenames = [
@@ -929,7 +929,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/6')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/6')]
     public function varyingOrderDoesFailCompletenessCheckWhenEnforced(): void
     {
         $artifactFilenames = [
@@ -1108,7 +1108,7 @@ CONTENT;
 
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/5')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/5')]
     public function captainHookConfigurationFileIsInDefaultPattern(): void
     {
         $artifactFilenames = [
@@ -1145,7 +1145,7 @@ CONTENT;
      */
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/9')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/9')]
     public function nonExistingGlobPatternFileThrowsExpectedException(): void
     {
         $fixturesDirectory = __DIR__ . DIRECTORY_SEPARATOR . 'fixtures';
@@ -1162,7 +1162,7 @@ CONTENT;
      */
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/9')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/9')]
     public function emptyGlobPatternFileThrowsExpectedException(): void
     {
         $temporaryLpvFile = $this->temporaryDirectory
@@ -1179,7 +1179,7 @@ CONTENT;
 
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/9')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/9')]
     public function defaultExportIgnoresGlobPatternIsOverwritableFromFile(): void
     {
         $temporaryLpvFile = $this->temporaryDirectory
@@ -1344,7 +1344,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/80')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/80')]
     public function licenseFileIsNotExportIgnoredWhenMitLicenseIsAutoDetected(): void
     {
         $artifactFilenames = [
@@ -1383,7 +1383,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/15')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/15')]
     public function licenseFileIsNotExportIgnored(): void
     {
         $artifactFilenames = [
@@ -1420,7 +1420,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/47')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/47')]
     public function readmeFileIsNotExportIgnored(): void
     {
         $artifactFilenames = [
@@ -1495,7 +1495,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/24')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/24')]
     public function directoriesOnlyExportIgnoredOnce(): void
     {
         $artifactFilenames = [
@@ -1618,7 +1618,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/4')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/4')]
     public function precedingSlashesAreDetected(): void
     {
         $artifactFilenames = [
@@ -1653,7 +1653,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/12')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/12')]
     public function missingTextAutoConfigurationIsDetected(): void
     {
         $artifactFilenames = [
@@ -1683,7 +1683,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/12')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/12')]
     public function presentTextAutoConfigurationIsDetected(): void
     {
         $artifactFilenames = [
@@ -1760,7 +1760,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/17')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/17')]
     public function presentGitignoredFileIsExcludedFromValidation(): void
     {
         $artifactFilenames = [
@@ -1802,7 +1802,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/21')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/21')]
     public function presentGitignoredSpecsCoverageDirectoryIsExcludedFromValidation(): void
     {
         $artifactFilenames = [

@@ -1,7 +1,7 @@
 class LeanPackageValidator < Formula
   desc "A CLI for validating if a project has lean releases"
-  homepage "https://github.com/raphaelstolt/lean-package-validator"
-  url "https://github.com/raphaelstolt/lean-package-validator/archive/refs/tags/v5.3.0.tar.gz"
+  homepage "https://github.com/lean-packages/lean-package-validator"
+  url "https://github.com/lean-packages/lean-package-validator/archive/refs/tags/v5.3.0.tar.gz"
   sha256 "23b734dca325751555d55fa301e8663662a074af24ef2005a9278a8b8b8d79c1"
   license "MIT"
 

@@ -7,7 +7,7 @@ Thanks for considering to contribute to the `lean package validator`.
 To set up a development environment, please follow the next shown instructions.
 
 ```bash
-git clone git@github.com:raphaelstolt/lean-package-validator.git
+git clone git@github.com:lean-packages/lean-package-validator.git
 composer install
 
 // implement your changes

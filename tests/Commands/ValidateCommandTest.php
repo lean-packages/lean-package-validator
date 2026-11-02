@@ -160,7 +160,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/39')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/39')]
     public function showsDifferenceBetweenActualAndExpectedGitattributesContent(): void
     {
         if ((new OsHelper())->isWindows()) {
@@ -275,7 +275,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/16')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/16')]
     public function gitattributesFileWithNoExportIgnoresContentShowsExpectedContent(): void
     {
         $mockedClassicExportIgnoreAnalyser = Mockery::mock(
@@ -357,7 +357,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/13')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/13')]
     public function gitattributesIsInSuggestedFileContent(): void
     {
         if ((new OsHelper())->isWindows()) {
@@ -399,7 +399,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/15')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/15')]
     public function licenseIsInSuggestedFileContentPerDefault(): void
     {
         $artifactFilenames = [
@@ -483,7 +483,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/15')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/15')]
     public function licenseIsNotInSuggestedFileContent(): void
     {
         $artifactFilenames = [
@@ -525,7 +525,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/47')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/47')]
     public function readmeIsNotInSuggestedFileContent(): void
     {
         $artifactFilenames = [
@@ -656,7 +656,7 @@ CONTENT;
 
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/13')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/13')]
     public function licenseIsNotInSuggestedFileContentWithCustomGlobPattern(): void
     {
         $artifactFilenames = [
@@ -699,7 +699,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/15')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/15')]
     public function presentExportIgnoredLicenseWithKeepLicenseOptionInvalidatesResult(): void
     {
         $artifactFilenames = [
@@ -750,7 +750,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/15')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/15')]
     public function archiveWithoutLicenseFileIsConsideredInvalid(): void
     {
         $mock = Mockery::mock(
@@ -796,7 +796,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/15')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/15')]
     public function archiveWithLicenseFileIsConsideredValid(): void
     {
         $mock = Mockery::mock(
@@ -996,7 +996,7 @@ CONTENT;
 
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/38')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/38')]
     public function missingGlobPatternProducesUserFriendlyErrorMessage(): void
     {
         $missingGlobPattern = '';
@@ -1211,7 +1211,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/41')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/41')]
     public function staleExportIgnoresAreConsideredAsInvalid(): void
     {
         $gitattributesContent = <<<CONTENT
@@ -1265,7 +1265,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/22')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/22')]
     public function nonExistentArtifactsWhichAreExportIgnoredAreIgnoredOnComparison(): void
     {
         $artifactFilenames = [
@@ -1410,7 +1410,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/6')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/6')]
     public function strictOrderOfExportIgnoresCanBeEnforced(): void
     {
         $artifactFilenames = [
@@ -1463,7 +1463,7 @@ CONTENT;
 
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/9')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/9')]
     public function givenGlobPatternTakesPrecedenceOverDefaultGlobPatternFile(): void
     {
         $artifactFilenames = [
@@ -1519,7 +1519,7 @@ CONTENT;
 
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/9')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/9')]
     public function presentGlobPatternFileTakesPrecedenceOverDefaultGlobPattern(): void
     {
         $artifactFilenames = [
@@ -1577,7 +1577,7 @@ CONTENT;
 
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/35')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/35')]
     public function presentLpvPatternFileIsUsed(): void
     {
         $artifactFilenames = [
@@ -1632,7 +1632,7 @@ CONTENT;
 
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/9')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/9')]
     public function providedNonExistentGlobPatternFileFailsValidation(): void
     {
         $gitattributesContent = <<<CONTENT
@@ -1665,7 +1665,7 @@ CONTENT;
 
     #[Test]
     #[Group('glob')]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/9')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/9')]
     public function providedInvalidGlobPatternFileFailsValidation(): void
     {
         $gitattributesContent = <<<CONTENT
@@ -1704,7 +1704,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/4')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/4')]
     public function precedingSlashesInExportIgnorePatternsRaiseAWarning(): void
     {
         $artifactFilenames = [
@@ -1750,7 +1750,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/12')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/12')]
     public function missingTextAutoConfigurationRaisesAWarning(): void
     {
         $artifactFilenames = [
@@ -1793,7 +1793,7 @@ CONTENT;
     }
 
     #[Test]
-    #[Ticket('https://github.com/raphaelstolt/lean-package-validator/issues/17')]
+    #[Ticket('https://github.com/lean-packages/lean-package-validator/issues/17')]
     public function gitignoredFilesAreExcludedFromValidation(): void
     {
         $artifactFilenames = [

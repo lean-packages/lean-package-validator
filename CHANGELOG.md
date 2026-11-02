@@ -11,7 +11,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Removed
 - The `Go`, `Python`, and `Rust` presets are removed as their packaging doesn't operate on a `.gitattributes` file.
-Closes [#81](https://github.com/raphaelstolt/lean-package-validator/issues/81).
+Closes [#81](https://github.com/lean-packages/lean-package-validator/issues/81).
 
 ## [v6.3.2] - 2026-10-16
 
@@ -47,7 +47,7 @@ Closes [#81](https://github.com/raphaelstolt/lean-package-validator/issues/81).
 ## [v6.1.0] - 2026-09-26
 
 ### Changed
-- MIT license files are auto-detected and shipped per default. Closes [#80](https://github.com/raphaelstolt/lean-package-validator/issues/80).
+- MIT license files are auto-detected and shipped per default. Closes [#80](https://github.com/lean-packages/lean-package-validator/issues/80).
 
 ## [v6.0.3] - 2026-09-20
 
@@ -67,13 +67,13 @@ Closes [#81](https://github.com/raphaelstolt/lean-package-validator/issues/81).
 ## [v6.0.0] - 2026-06-01
 
 ### Added
-- Expanded the `validation` to also validate _negated_ export-ignore directives. Closes [#70](https://github.com/raphaelstolt/lean-package-validator/issues/70).
-- New `--flavour` option for the `create` command which influences the `.gitattributes` file generation. Closes [#71](https://github.com/raphaelstolt/lean-package-validator/issues/71).
-- Expanded the `reformatting` to also reformat _negated_ export-ignore directives. Closes [#72](https://github.com/raphaelstolt/lean-package-validator/issues/72).
+- Expanded the `validation` to also validate _negated_ export-ignore directives. Closes [#70](https://github.com/lean-packages/lean-package-validator/issues/70).
+- New `--flavour` option for the `create` command which influences the `.gitattributes` file generation. Closes [#71](https://github.com/lean-packages/lean-package-validator/issues/71).
+- Expanded the `reformatting` to also reformat _negated_ export-ignore directives. Closes [#72](https://github.com/lean-packages/lean-package-validator/issues/72).
 
 ### Removed
 - Removed the explicit `--agentic-run` option as agent detection is now done automatically per default.
-- Removed the deprecated `--create` and `--overwrite` options of the validate command. Closes [#68](https://github.com/raphaelstolt/lean-package-validator/issues/68).
+- Removed the deprecated `--create` and `--overwrite` options of the validate command. Closes [#68](https://github.com/lean-packages/lean-package-validator/issues/68).
 
 ## [v5.9.1] - 2026-05-17
 
@@ -83,7 +83,7 @@ Closes [#81](https://github.com/raphaelstolt/lean-package-validator/issues/81).
 ## [v5.9.0] - 2026-05-16
 
 ### Added
-- Added a new `--group` option to the `reformat` and `update` command. Closes [#69](https://github.com/raphaelstolt/lean-package-validator/issues/69).
+- Added a new `--group` option to the `reformat` and `update` command. Closes [#69](https://github.com/lean-packages/lean-package-validator/issues/69).
 - Expanded the common glob preset patterns.
 
 ## [v5.8.6] - 2026-05-13
@@ -137,7 +137,7 @@ Closes [#81](https://github.com/raphaelstolt/lean-package-validator/issues/81).
 ## [v5.7.1] - 2026-04-30
 
 ### Fixed
-- Updated symfony/* version constraints. Closes [#66](https://github.com/raphaelstolt/lean-package-validator/issues/66).
+- Updated symfony/* version constraints. Closes [#66](https://github.com/lean-packages/lean-package-validator/issues/66).
 
 ## [v5.7.0] - 2026-04-30
 
@@ -162,14 +162,14 @@ Closes [#81](https://github.com/raphaelstolt/lean-package-validator/issues/81).
 ## [v5.5.0] - 2026-04-02
 
 ### Added
-- Agentic-friendly output formatting via `--agentic-run` with JSON output for machine consumption. Closes [#64](https://github.com/raphaelstolt/lean-package-validator/issues/64).
+- Agentic-friendly output formatting via `--agentic-run` with JSON output for machine consumption. Closes [#64](https://github.com/lean-packages/lean-package-validator/issues/64).
 
 ## [v5.4.0] - 2026-03-20
 
 ### Added
-- New `Homebrew` formula and usage documentation. Closes [#45](https://github.com/raphaelstolt/lean-package-validator/issues/45).
+- New `Homebrew` formula and usage documentation. Closes [#45](https://github.com/lean-packages/lean-package-validator/issues/45).
 - New `refresh` command to update a present `.lpv` file with the latest preset glob patterns. 
-Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
+Closes [#63](https://github.com/lean-packages/lean-package-validator/issues/63).
 
 ## [v5.3.3] - 2026-01-28
 
@@ -205,7 +205,7 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 ## [v5.2.2] - 2025-10-29
 
 ### Fixed
-- The complete directory path is used in user output. Closes [#59](https://github.com/raphaelstolt/lean-package-validator/issues/59).
+- The complete directory path is used in user output. Closes [#59](https://github.com/lean-packages/lean-package-validator/issues/59).
 
 ## [v5.2.1] - 2025-10-20
 
@@ -225,20 +225,20 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 ## [v5.0.0] - 2025-09-17
 
 ### Added
-- New dedicated `update` and `create` commands. Closes [#55](https://github.com/raphaelstolt/lean-package-validator/issues/55).
+- New dedicated `update` and `create` commands. Closes [#55](https://github.com/lean-packages/lean-package-validator/issues/55).
 
 ### Fixed
-- When using `--stdin-input` it can be configured via the available options. Closes [#50](https://github.com/raphaelstolt/lean-package-validator/issues/50).
+- When using `--stdin-input` it can be configured via the available options. Closes [#50](https://github.com/lean-packages/lean-package-validator/issues/50).
 
 ## [v4.7.1] - 2025-09-15
 
 ### Fixed
-- Avoid duplicated headers. Closes [#54](https://github.com/raphaelstolt/lean-package-validator/issues/54).
+- Avoid duplicated headers. Closes [#54](https://github.com/lean-packages/lean-package-validator/issues/54).
 
 ## [v4.7.0] - 2025-08-29
 
 ### Added
-- New `preset` option for the validate command. Closes [#53](https://github.com/raphaelstolt/lean-package-validator/issues/53).
+- New `preset` option for the validate command. Closes [#53](https://github.com/lean-packages/lean-package-validator/issues/53).
 
 ## [v4.6.0] - 2025-08-27
 
@@ -253,7 +253,7 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 ## [v4.4.6] - 2025-08-26
 
 ### Fixed
-- Ease the language-specific preset definition and maintenance. Closes [#52](https://github.com/raphaelstolt/lean-package-validator/issues/52).
+- Ease the language-specific preset definition and maintenance. Closes [#52](https://github.com/lean-packages/lean-package-validator/issues/52).
 
 ### Added
 
@@ -293,7 +293,7 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Added
 
-- New `stdin-input` option. Closes [#42](https://github.com/raphaelstolt/lean-package-validator/issues/42).
+- New `stdin-input` option. Closes [#42](https://github.com/lean-packages/lean-package-validator/issues/42).
 
 ## [v4.3.6] - 2025-02-21
 
@@ -314,7 +314,7 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 ## [v4.3.3] - 2025-02-10
 
 ### Fixed
-- Replace the dependency on the Unix `tree` command. Closes [#49](https://github.com/raphaelstolt/lean-package-validator/issues/49). 
+- Replace the dependency on the Unix `tree` command. Closes [#49](https://github.com/lean-packages/lean-package-validator/issues/49). 
 
 ## [v4.3.2] - 2025-02-10
 
@@ -332,13 +332,13 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 ## [v4.3.0] - 2025-02-07
 
 ### Added
-- New `tree` command, that displays the source and dist package structure. Closes [#48](https://github.com/raphaelstolt/lean-package-validator/issues/48).  
+- New `tree` command, that displays the source and dist package structure. Closes [#48](https://github.com/lean-packages/lean-package-validator/issues/48).  
 
 ## [v4.2.0] - 2025-02-06
 
 ### Added
 
-- Option to sort ignored artefacts from directories to files. Closes [#30](https://github.com/raphaelstolt/lean-package-validator/issues/30).
+- Option to sort ignored artefacts from directories to files. Closes [#30](https://github.com/lean-packages/lean-package-validator/issues/30).
 - Further PHP preset expansion.
 
 ## [v4.1.1] - 2025-01-14
@@ -351,7 +351,7 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Added
 
-- New `--keep-readme` and `--keep-glob-pattern` options. Closes [#47](https://github.com/raphaelstolt/lean-package-validator/issues/47).
+- New `--keep-readme` and `--keep-glob-pattern` options. Closes [#47](https://github.com/lean-packages/lean-package-validator/issues/47).
 
 ## [v4.0.5] - 2024-11-06
 
@@ -408,7 +408,7 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Fixed
 
-- The header is written on an existent .gitattributes file. Closes [#44](https://github.com/raphaelstolt/lean-package-validator/issues/44).
+- The header is written on an existent .gitattributes file. Closes [#44](https://github.com/lean-packages/lean-package-validator/issues/44).
 
 ## [v3.3.0] - 2023-11-28
 
@@ -420,9 +420,9 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Added
 
-- New `--preset` option. Closes [#43](https://github.com/raphaelstolt/lean-package-validator/issues/43).
+- New `--preset` option. Closes [#43](https://github.com/lean-packages/lean-package-validator/issues/43).
 
-- New `--report-stale-export-ignores` option. Closes [#41](https://github.com/raphaelstolt/lean-package-validator/issues/41).
+- New `--report-stale-export-ignores` option. Closes [#41](https://github.com/lean-packages/lean-package-validator/issues/41).
 
 ## [v3.1.1] - 2023-10-13
 
@@ -434,13 +434,13 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Added
 
-- Global .gitignored files are excluded from validation. Closes [#36](https://github.com/raphaelstolt/lean-package-validator/issues/36).
-- Added `--diff` option to show differences between expected and actual .gitattributes content. Closes [#39](https://github.com/raphaelstolt/lean-package-validator/issues/39).
-- Added verbose output. Closes [#37](https://github.com/raphaelstolt/lean-package-validator/issues/37).
+- Global .gitignored files are excluded from validation. Closes [#36](https://github.com/lean-packages/lean-package-validator/issues/36).
+- Added `--diff` option to show differences between expected and actual .gitattributes content. Closes [#39](https://github.com/lean-packages/lean-package-validator/issues/39).
+- Added verbose output. Closes [#37](https://github.com/lean-packages/lean-package-validator/issues/37).
 
 ### Fixed
 
-- Empty glob pattern is caught as invalid. Closes [#38](https://github.com/raphaelstolt/lean-package-validator/issues/38).
+- Empty glob pattern is caught as invalid. Closes [#38](https://github.com/lean-packages/lean-package-validator/issues/38).
 
 ## [v3.0.1] - 2023-09-26
 
@@ -481,25 +481,25 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Removed
 
-- Removed support for PHP `5.6` and `7.0.`. Closes [#29](https://github.com/raphaelstolt/lean-package-validator/issues/29).
+- Removed support for PHP `5.6` and `7.0.`. Closes [#29](https://github.com/lean-packages/lean-package-validator/issues/29).
 
 ## [v1.9.0] - 2018-11-03
 
 ### Added
 
-- Enabled distribution via PHAR. Closes [#27](https://github.com/raphaelstolt/lean-package-validator/issues/27).
+- Enabled distribution via PHAR. Closes [#27](https://github.com/lean-packages/lean-package-validator/issues/27).
 
 ## [v1.8.1] - 2017-10-18
 
 ### Fixed
 
-- Matched directories e.g. `tests` or `specs` are export-ignored only once. Closes [#24](https://github.com/raphaelstolt/lean-package-validator/issues/24).
+- Matched directories e.g. `tests` or `specs` are export-ignored only once. Closes [#24](https://github.com/lean-packages/lean-package-validator/issues/24).
 
 ## [v1.8.0] - 2017-10-12
 
 ### Added
 
-- Additional `--align-export-ignores|-a` option to align the export-ignores which improves readability. Closes [#23](https://github.com/raphaelstolt/lean-package-validator/issues/23).
+- Additional `--align-export-ignores|-a` option to align the export-ignores which improves readability. Closes [#23](https://github.com/lean-packages/lean-package-validator/issues/23).
 - Additional `--enforce-alignment` option to enforce that all export-ignores are aligned.
 
 ## [v1.7.3] - 2017-10-02
@@ -512,13 +512,13 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Fixed
 
-- Fix non-existent export ignored artefacts are excluded from validation. Fixes [#22](https://github.com/raphaelstolt/lean-package-validator/issues/22).
+- Fix non-existent export ignored artefacts are excluded from validation. Fixes [#22](https://github.com/lean-packages/lean-package-validator/issues/22).
 
 ## [v1.7.1] - 2017-05-06
 
 ### Fixed
 
-- Fix gitignored files with a pre- and postfixed directory separator are excluded from validation. Fixes [#21](https://github.com/raphaelstolt/lean-package-validator/issues/21).
+- Fix gitignored files with a pre- and postfixed directory separator are excluded from validation. Fixes [#21](https://github.com/lean-packages/lean-package-validator/issues/21).
 
 ## [v1.7.0] - 2017-03-31
 
@@ -530,7 +530,7 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Added
 
-- New `init` command to create a `.lpv` file with the default glob patterns. Closes [#18](https://github.com/raphaelstolt/lean-package-validator/issues/18).
+- New `init` command to create a `.lpv` file with the default glob patterns. Closes [#18](https://github.com/lean-packages/lean-package-validator/issues/18).
 
 ## [v1.5.2] - 2016-10-08
 
@@ -540,29 +540,29 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Fixed
 
-- Fix gitignored files are excluded from validation. Fixes [#17](https://github.com/raphaelstolt/lean-package-validator/issues/17).
+- Fix gitignored files are excluded from validation. Fixes [#17](https://github.com/lean-packages/lean-package-validator/issues/17).
 
 ## [v1.5.1] - 2016-10-05
 
 ### Fixed
 
-- Fix missing export-ignore patterns on existing `.gitattributes` file with no export-ignore entries. Fixes [#16](https://github.com/raphaelstolt/lean-package-validator/issues/16).
+- Fix missing export-ignore patterns on existing `.gitattributes` file with no export-ignore entries. Fixes [#16](https://github.com/lean-packages/lean-package-validator/issues/16).
 
 ## [v1.5.0] - 2016-10-04
 
 ### Added
 
-- New `--keep-license` option to allow license files in releases. Closes [#15](https://github.com/raphaelstolt/lean-package-validator/issues/15).
+- New `--keep-license` option to allow license files in releases. Closes [#15](https://github.com/lean-packages/lean-package-validator/issues/15).
 
 ## [v1.4.0] - 2016-10-04
 
 ### Added
 
-- Additional artefacts glob pattern expansion to match CaptainHook configuration files. Closes [#14](https://github.com/raphaelstolt/lean-package-validator/issues/14).
+- Additional artefacts glob pattern expansion to match CaptainHook configuration files. Closes [#14](https://github.com/lean-packages/lean-package-validator/issues/14).
 
 ### Fixed
 
-- Fix missing `.gitattributes export-ignore` in suggested and generated `.gitattributes` file content. Closes [#13](https://github.com/raphaelstolt/lean-package-validator/issues/13).
+- Fix missing `.gitattributes export-ignore` in suggested and generated `.gitattributes` file content. Closes [#13](https://github.com/lean-packages/lean-package-validator/issues/13).
 
 ## [v1.3.1] - 2016-10-04
 
@@ -574,33 +574,33 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Added
 
-- Leading slashes in export-ignore patterns are considered as a smell and raise a warning. Closes [#4](https://github.com/raphaelstolt/lean-package-validator/issues/4).
-- A missing text autoconfiguration is considered as a smell and raises a warning. Closes [#12](https://github.com/raphaelstolt/lean-package-validator/issues/12).
+- Leading slashes in export-ignore patterns are considered as a smell and raise a warning. Closes [#4](https://github.com/lean-packages/lean-package-validator/issues/4).
+- A missing text autoconfiguration is considered as a smell and raises a warning. Closes [#12](https://github.com/lean-packages/lean-package-validator/issues/12).
 
 ## [v1.2.0] - 2016-09-22
 
 ### Added
 
-- New `--glob-pattern-file` option to load custom glob patterns from a file. Closes [#9](https://github.com/raphaelstolt/lean-package-validator/issues/9).
+- New `--glob-pattern-file` option to load custom glob patterns from a file. Closes [#9](https://github.com/lean-packages/lean-package-validator/issues/9).
 
 ## [v1.1.0] - 2016-09-18
 
 ### Added
 
 - Additional artefacts glob pattern expansion to match Phulp files.
-- New `--enforce-strict-order` option to enforce a strict order comparison of export-ignores in the .gitattributes file. Closes [#6](https://github.com/raphaelstolt/lean-package-validator/issues/6).
+- New `--enforce-strict-order` option to enforce a strict order comparison of export-ignores in the .gitattributes file. Closes [#6](https://github.com/lean-packages/lean-package-validator/issues/6).
 
 ## [v1.0.6] - 2016-09-11
 
 ### Fixed
 
-- Fix present, invalid `.gitattributes` files are overwritable. Closes [#8](https://github.com/raphaelstolt/lean-package-validator/issues/8).
+- Fix present, invalid `.gitattributes` files are overwritable. Closes [#8](https://github.com/lean-packages/lean-package-validator/issues/8).
 
 ## [v1.0.5] - 2016-09-09
 
 ### Fixed
 
-- Fix expected and actual `export-ignores` comparison. Related to [#3](https://github.com/raphaelstolt/lean-package-validator/issues/3).
+- Fix expected and actual `export-ignores` comparison. Related to [#3](https://github.com/lean-packages/lean-package-validator/issues/3).
 
 ## [v1.0.4] - 2016-09-09
 
@@ -610,7 +610,7 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Fixed
 
-- Fix present `.gitattributes` files are really validated. Closes [#3](https://github.com/raphaelstolt/lean-package-validator/issues/3).
+- Fix present `.gitattributes` files are really validated. Closes [#3](https://github.com/lean-packages/lean-package-validator/issues/3).
 
 ## [v1.0.3] - 2016-09-05
 
@@ -622,7 +622,7 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 ### Added
 
-- Additional validation of glob patterns injected via the `--glob-pattern` option. Closes [#2](https://github.com/raphaelstolt/lean-package-validator/issues/2).
+- Additional validation of glob patterns injected via the `--glob-pattern` option. Closes [#2](https://github.com/lean-packages/lean-package-validator/issues/2).
 
 ## [v1.0.1] - 2016-09-04
 
@@ -634,105 +634,105 @@ Closes [#63](https://github.com/raphaelstolt/lean-package-validator/issues/63).
 
 - Initial release.
 
-[Unreleased]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.4.0...HEAD
+[Unreleased]: https://github.com/lean-packages/lean-package-validator/compare/v6.4.0...HEAD
 
-[v6.4.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.3.2...v6.4.0
-[v6.3.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.3.1...v6.3.2
-[v6.3.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.3.0...v6.3.1
-[v6.3.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.2.0...v6.3.0
-[v6.2.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.1.1...v6.2.0
-[v6.1.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.1.0...v6.1.1
-[v6.1.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.0.3...v6.1.0
-[v6.0.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.0.2...v6.0.3
-[v6.0.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.0.1...v6.0.2
-[v6.0.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v6.0.0...v6.0.1
-[v6.0.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.9.1...v6.0.0
-[v5.9.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.9.0...v5.9.1
-[v5.9.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.8.6...v5.9.0
-[v5.8.6]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.8.5...v5.8.6
-[v5.8.5]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.8.4...v5.8.5
-[v5.8.4]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.8.3...v5.8.4
-[v5.8.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.8.2...v5.8.3
-[v5.8.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.8.1...v5.8.2
-[v5.8.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.8.0...v5.8.1
-[v5.8.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.7.3...v5.8.0
-[v5.7.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.7.2...v5.7.3
-[v5.7.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.7.1...v5.7.2
-[v5.7.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.7.0...v5.7.1
-[v5.7.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.6.1...v5.7.0
-[v5.6.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.6.0...v5.6.1
-[v5.6.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.5.0...v5.6.0
-[v5.5.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.4.0...v5.5.0
-[v5.4.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.3.3...v5.4.0
-[v5.3.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.3.2...v5.3.3
-[v5.3.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.3.1...v5.3.2
-[v5.3.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.3.0...v5.3.1
-[v5.3.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.2.4...v5.3.0
-[v5.2.4]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.2.3...v5.2.4
-[v5.2.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.2.2...v5.2.3
-[v5.2.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.2.1...v5.2.2
-[v5.2.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.2.0...v5.2.1
-[v5.2.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.1.0...v5.2.0
-[v5.1.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v5.0.0...v5.1.0
-[v5.0.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.7.1...v5.0.0
-[v4.7.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.7.0...v4.7.1
-[v4.7.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.6.0...v4.7.0
-[v4.6.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.5.0...v4.6.0
-[v4.5.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.4.6...v4.5.0
-[v4.4.6]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.4.5...v4.4.6
-[v4.4.5]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.4.4...v4.4.5
-[v4.4.4]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.4.3...v4.4.4
-[v4.4.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.4.2...v4.4.3
-[v4.4.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.4.1...v4.4.2
-[v4.4.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.4.0...v4.4.1
-[v4.4.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.3.6...v4.4.0
-[v4.3.6]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.3.5...v4.3.6
-[v4.3.5]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.3.4...v4.3.5
-[v4.3.4]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.3.3...v4.3.4
-[v4.3.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.3.2...v4.3.3
-[v4.3.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.3.1...v4.3.2
-[v4.3.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.3.0...v4.3.1
-[v4.3.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.2.0...v4.3.0
-[v4.2.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.1.1...v4.2.0
-[v4.1.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.1.0...v4.1.1
-[v4.1.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.0.5...v4.1.0
-[v4.0.5]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.0.4...v4.0.5
-[v4.0.4]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.0.3...v4.0.4
-[v4.0.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.0.2...v4.0.3
-[v4.0.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.0.1...v4.0.2
-[v4.0.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v4.0.0...v4.0.1
-[v4.0.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v3.3.2...v4.0.0
-[v3.3.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v3.3.1...v3.3.2
-[v3.3.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v3.3.0...v3.3.1
-[v3.3.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v3.2.0...v3.3.0
-[v3.2.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v3.1.1...v3.2.0
-[v3.1.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v3.1.0...v3.1.1
-[v3.1.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v3.0.1...v3.1.0
-[v3.0.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v3.0.0...v3.0.1
-[v3.0.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v2.1.0...v3.0.0
-[v2.1.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v2.0.2...v2.1.0
-[v2.0.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v2.0.1...v2.0.2
-[v2.0.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v2.0.0...v2.0.1
-[v2.0.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.9.0...v2.0.0
-[v1.9.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.8.1...v1.9.0
-[v1.8.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.8.0...v1.8.1
-[v1.8.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.7.3...v1.8.0
-[v1.7.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.7.2...v1.7.3
-[v1.7.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.7.1...v1.7.2
-[v1.7.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.7.0...v1.7.1
-[v1.7.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.6.0...v1.7.0
-[v1.6.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.5.2...v1.6.0
-[v1.5.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.5.1...v1.5.2
-[v1.5.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.5.0...v1.5.1
-[v1.5.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.4.0...v1.5.0
-[v1.4.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.3.1...v1.4.0
-[v1.3.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.3.0...v1.3.1
-[v1.3.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.2.0...v1.3.0
-[v1.2.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.1.0...v1.2.0
-[v1.1.0]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.0.6...v1.1.0
-[v1.0.6]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.0.5...v1.0.6
-[v1.0.5]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.0.4...v1.0.5
-[v1.0.4]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.0.3...v1.0.4
-[v1.0.3]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.0.2...v1.0.3
-[v1.0.2]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.0.1...v1.0.2
-[v1.0.1]: https://github.com/raphaelstolt/lean-package-validator/compare/v1.0.0...v1.0.1
+[v6.4.0]: https://github.com/lean-packages/lean-package-validator/compare/v6.3.2...v6.4.0
+[v6.3.2]: https://github.com/lean-packages/lean-package-validator/compare/v6.3.1...v6.3.2
+[v6.3.1]: https://github.com/lean-packages/lean-package-validator/compare/v6.3.0...v6.3.1
+[v6.3.0]: https://github.com/lean-packages/lean-package-validator/compare/v6.2.0...v6.3.0
+[v6.2.0]: https://github.com/lean-packages/lean-package-validator/compare/v6.1.1...v6.2.0
+[v6.1.1]: https://github.com/lean-packages/lean-package-validator/compare/v6.1.0...v6.1.1
+[v6.1.0]: https://github.com/lean-packages/lean-package-validator/compare/v6.0.3...v6.1.0
+[v6.0.3]: https://github.com/lean-packages/lean-package-validator/compare/v6.0.2...v6.0.3
+[v6.0.2]: https://github.com/lean-packages/lean-package-validator/compare/v6.0.1...v6.0.2
+[v6.0.1]: https://github.com/lean-packages/lean-package-validator/compare/v6.0.0...v6.0.1
+[v6.0.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.9.1...v6.0.0
+[v5.9.1]: https://github.com/lean-packages/lean-package-validator/compare/v5.9.0...v5.9.1
+[v5.9.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.8.6...v5.9.0
+[v5.8.6]: https://github.com/lean-packages/lean-package-validator/compare/v5.8.5...v5.8.6
+[v5.8.5]: https://github.com/lean-packages/lean-package-validator/compare/v5.8.4...v5.8.5
+[v5.8.4]: https://github.com/lean-packages/lean-package-validator/compare/v5.8.3...v5.8.4
+[v5.8.3]: https://github.com/lean-packages/lean-package-validator/compare/v5.8.2...v5.8.3
+[v5.8.2]: https://github.com/lean-packages/lean-package-validator/compare/v5.8.1...v5.8.2
+[v5.8.1]: https://github.com/lean-packages/lean-package-validator/compare/v5.8.0...v5.8.1
+[v5.8.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.7.3...v5.8.0
+[v5.7.3]: https://github.com/lean-packages/lean-package-validator/compare/v5.7.2...v5.7.3
+[v5.7.2]: https://github.com/lean-packages/lean-package-validator/compare/v5.7.1...v5.7.2
+[v5.7.1]: https://github.com/lean-packages/lean-package-validator/compare/v5.7.0...v5.7.1
+[v5.7.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.6.1...v5.7.0
+[v5.6.1]: https://github.com/lean-packages/lean-package-validator/compare/v5.6.0...v5.6.1
+[v5.6.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.5.0...v5.6.0
+[v5.5.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.4.0...v5.5.0
+[v5.4.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.3.3...v5.4.0
+[v5.3.3]: https://github.com/lean-packages/lean-package-validator/compare/v5.3.2...v5.3.3
+[v5.3.2]: https://github.com/lean-packages/lean-package-validator/compare/v5.3.1...v5.3.2
+[v5.3.1]: https://github.com/lean-packages/lean-package-validator/compare/v5.3.0...v5.3.1
+[v5.3.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.2.4...v5.3.0
+[v5.2.4]: https://github.com/lean-packages/lean-package-validator/compare/v5.2.3...v5.2.4
+[v5.2.3]: https://github.com/lean-packages/lean-package-validator/compare/v5.2.2...v5.2.3
+[v5.2.2]: https://github.com/lean-packages/lean-package-validator/compare/v5.2.1...v5.2.2
+[v5.2.1]: https://github.com/lean-packages/lean-package-validator/compare/v5.2.0...v5.2.1
+[v5.2.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.1.0...v5.2.0
+[v5.1.0]: https://github.com/lean-packages/lean-package-validator/compare/v5.0.0...v5.1.0
+[v5.0.0]: https://github.com/lean-packages/lean-package-validator/compare/v4.7.1...v5.0.0
+[v4.7.1]: https://github.com/lean-packages/lean-package-validator/compare/v4.7.0...v4.7.1
+[v4.7.0]: https://github.com/lean-packages/lean-package-validator/compare/v4.6.0...v4.7.0
+[v4.6.0]: https://github.com/lean-packages/lean-package-validator/compare/v4.5.0...v4.6.0
+[v4.5.0]: https://github.com/lean-packages/lean-package-validator/compare/v4.4.6...v4.5.0
+[v4.4.6]: https://github.com/lean-packages/lean-package-validator/compare/v4.4.5...v4.4.6
+[v4.4.5]: https://github.com/lean-packages/lean-package-validator/compare/v4.4.4...v4.4.5
+[v4.4.4]: https://github.com/lean-packages/lean-package-validator/compare/v4.4.3...v4.4.4
+[v4.4.3]: https://github.com/lean-packages/lean-package-validator/compare/v4.4.2...v4.4.3
+[v4.4.2]: https://github.com/lean-packages/lean-package-validator/compare/v4.4.1...v4.4.2
+[v4.4.1]: https://github.com/lean-packages/lean-package-validator/compare/v4.4.0...v4.4.1
+[v4.4.0]: https://github.com/lean-packages/lean-package-validator/compare/v4.3.6...v4.4.0
+[v4.3.6]: https://github.com/lean-packages/lean-package-validator/compare/v4.3.5...v4.3.6
+[v4.3.5]: https://github.com/lean-packages/lean-package-validator/compare/v4.3.4...v4.3.5
+[v4.3.4]: https://github.com/lean-packages/lean-package-validator/compare/v4.3.3...v4.3.4
+[v4.3.3]: https://github.com/lean-packages/lean-package-validator/compare/v4.3.2...v4.3.3
+[v4.3.2]: https://github.com/lean-packages/lean-package-validator/compare/v4.3.1...v4.3.2
+[v4.3.1]: https://github.com/lean-packages/lean-package-validator/compare/v4.3.0...v4.3.1
+[v4.3.0]: https://github.com/lean-packages/lean-package-validator/compare/v4.2.0...v4.3.0
+[v4.2.0]: https://github.com/lean-packages/lean-package-validator/compare/v4.1.1...v4.2.0
+[v4.1.1]: https://github.com/lean-packages/lean-package-validator/compare/v4.1.0...v4.1.1
+[v4.1.0]: https://github.com/lean-packages/lean-package-validator/compare/v4.0.5...v4.1.0
+[v4.0.5]: https://github.com/lean-packages/lean-package-validator/compare/v4.0.4...v4.0.5
+[v4.0.4]: https://github.com/lean-packages/lean-package-validator/compare/v4.0.3...v4.0.4
+[v4.0.3]: https://github.com/lean-packages/lean-package-validator/compare/v4.0.2...v4.0.3
+[v4.0.2]: https://github.com/lean-packages/lean-package-validator/compare/v4.0.1...v4.0.2
+[v4.0.1]: https://github.com/lean-packages/lean-package-validator/compare/v4.0.0...v4.0.1
+[v4.0.0]: https://github.com/lean-packages/lean-package-validator/compare/v3.3.2...v4.0.0
+[v3.3.2]: https://github.com/lean-packages/lean-package-validator/compare/v3.3.1...v3.3.2
+[v3.3.1]: https://github.com/lean-packages/lean-package-validator/compare/v3.3.0...v3.3.1
+[v3.3.0]: https://github.com/lean-packages/lean-package-validator/compare/v3.2.0...v3.3.0
+[v3.2.0]: https://github.com/lean-packages/lean-package-validator/compare/v3.1.1...v3.2.0
+[v3.1.1]: https://github.com/lean-packages/lean-package-validator/compare/v3.1.0...v3.1.1
+[v3.1.0]: https://github.com/lean-packages/lean-package-validator/compare/v3.0.1...v3.1.0
+[v3.0.1]: https://github.com/lean-packages/lean-package-validator/compare/v3.0.0...v3.0.1
+[v3.0.0]: https://github.com/lean-packages/lean-package-validator/compare/v2.1.0...v3.0.0
+[v2.1.0]: https://github.com/lean-packages/lean-package-validator/compare/v2.0.2...v2.1.0
+[v2.0.2]: https://github.com/lean-packages/lean-package-validator/compare/v2.0.1...v2.0.2
+[v2.0.1]: https://github.com/lean-packages/lean-package-validator/compare/v2.0.0...v2.0.1
+[v2.0.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.9.0...v2.0.0
+[v1.9.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.8.1...v1.9.0
+[v1.8.1]: https://github.com/lean-packages/lean-package-validator/compare/v1.8.0...v1.8.1
+[v1.8.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.7.3...v1.8.0
+[v1.7.3]: https://github.com/lean-packages/lean-package-validator/compare/v1.7.2...v1.7.3
+[v1.7.2]: https://github.com/lean-packages/lean-package-validator/compare/v1.7.1...v1.7.2
+[v1.7.1]: https://github.com/lean-packages/lean-package-validator/compare/v1.7.0...v1.7.1
+[v1.7.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.6.0...v1.7.0
+[v1.6.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.5.2...v1.6.0
+[v1.5.2]: https://github.com/lean-packages/lean-package-validator/compare/v1.5.1...v1.5.2
+[v1.5.1]: https://github.com/lean-packages/lean-package-validator/compare/v1.5.0...v1.5.1
+[v1.5.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.4.0...v1.5.0
+[v1.4.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.3.1...v1.4.0
+[v1.3.1]: https://github.com/lean-packages/lean-package-validator/compare/v1.3.0...v1.3.1
+[v1.3.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.2.0...v1.3.0
+[v1.2.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.1.0...v1.2.0
+[v1.1.0]: https://github.com/lean-packages/lean-package-validator/compare/v1.0.6...v1.1.0
+[v1.0.6]: https://github.com/lean-packages/lean-package-validator/compare/v1.0.5...v1.0.6
+[v1.0.5]: https://github.com/lean-packages/lean-package-validator/compare/v1.0.4...v1.0.5
+[v1.0.4]: https://github.com/lean-packages/lean-package-validator/compare/v1.0.3...v1.0.4
+[v1.0.3]: https://github.com/lean-packages/lean-package-validator/compare/v1.0.2...v1.0.3
+[v1.0.2]: https://github.com/lean-packages/lean-package-validator/compare/v1.0.1...v1.0.2
+[v1.0.1]: https://github.com/lean-packages/lean-package-validator/compare/v1.0.0...v1.0.1

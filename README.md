@@ -1,6 +1,6 @@
 # Lean package validator
 
-![Test Status](https://github.com/raphaelstolt/lean-package-validator/workflows/test/badge.svg)
+![Test Status](https://github.com/lean-packages/lean-package-validator/workflows/test/badge.svg)
 [![Version](http://img.shields.io/packagist/v/stolt/lean-package-validator.svg?style=flat)](https://packagist.org/packages/stolt/lean-package-validator)
 ![PHP Version](https://img.shields.io/badge/php-8.2+-ff69b4.svg)
 [![Boost ready](https://img.shields.io/badge/boost-ready-purple.svg?style=flat)](./resources/boost/skills)
@@ -9,7 +9,7 @@
 ![Downloads](https://img.shields.io/packagist/dt/stolt/lean-package-validator)
 [![composer.lock available](https://poser.pugx.org/stolt/lean-package-validator/composerlock)](https://packagist.org/packages/stolt/lean-package-validator)
 [![PDS Skeleton](https://img.shields.io/badge/pds-skeleton-blue.svg?style=flat)](https://github.com/php-pds/skeleton)
-[![Lean dist package](https://img.shields.io/badge/lean-dist%20package-00ffb6.svg?style=flat)](https://github.com/raphaelstolt/lean-package-validator)
+[![Lean dist package](https://img.shields.io/badge/lean-dist%20package-00ffb6.svg?style=flat)](https://github.com/lean-packages/lean-package-validator)
 
 <p align="center">
     <img src="lpv-logo.png" 
@@ -21,7 +21,7 @@ The lean package validator, or its abbreviation __lpv__, is a utility tool that 
 `leanness`. A project/micro-package is considered `lean` when its common repository artefacts won't be included in release
 assets.
 
-It can also [create](https://github.com/raphaelstolt/lean-package-validator?tab=readme-ov-file#create-command), [update](https://github.com/raphaelstolt/lean-package-validator?tab=readme-ov-file#update-command), and [reformat](https://github.com/raphaelstolt/lean-package-validator?tab=readme-ov-file#reformat-command) the `leanness` enforcing export-ignore entries of a `.gitattributes` 
+It can also [create](https://github.com/lean-packages/lean-package-validator?tab=readme-ov-file#create-command), [update](https://github.com/lean-packages/lean-package-validator?tab=readme-ov-file#update-command), and [reformat](https://github.com/lean-packages/lean-package-validator?tab=readme-ov-file#reformat-command) the `leanness` enforcing export-ignore entries of a `.gitattributes` 
 file.
 
 ## Installation
@@ -54,12 +54,12 @@ composer require --dev stolt/lean-package-validator
 
 > [!TIP] 
 > As of release `v1.9.0` it's also possible to install and use the lean package validator
-> via a PHAR [file](https://github.com/raphaelstolt/lean-package-validator/releases/tag/v1.9.0).
+> via a PHAR [file](https://github.com/lean-packages/lean-package-validator/releases/tag/v1.9.0).
 
 Therefor download a released version e.g. v3.3.1 and move it to `/usr/local/bin` as shown next.
 
 ``` bash
-wget --quiet https://github.com/raphaelstolt/lean-package-validator/releases/download/v3.3.1/lean-package-validator.phar
+wget --quiet https://github.com/lean-packages/lean-package-validator/releases/download/v3.3.1/lean-package-validator.phar
 mv lean-package-validator.phar /usr/local/bin/lean-package-validator
 ```
 
@@ -113,7 +113,7 @@ Run the following command to validate a project/micro-package.
 lean-package-validator validate [<directory>]
 ```
 
-If no `.gitattributes` file is present it will suggest [creating](https://github.com/raphaelstolt/lean-package-validator?tab=readme-ov-file#create-command) one.
+If no `.gitattributes` file is present it will suggest [creating](https://github.com/lean-packages/lean-package-validator?tab=readme-ov-file#create-command) one.
 
 ### Available options
 
@@ -284,7 +284,7 @@ The `init` command will create an initial `.lpv` file with the default patterns 
 lean-package-validator init [<directory>]
 ```
 
-The `--overwrite|-o` option overwrites an existing `.lpv` file. Also, see the [refresh](https://github.com/raphaelstolt/lean-package-validator?tab=readme-ov-file#configuration-refresh-command) command.
+The `--overwrite|-o` option overwrites an existing `.lpv` file. Also, see the [refresh](https://github.com/lean-packages/lean-package-validator?tab=readme-ov-file#configuration-refresh-command) command.
 
 The `--preset` option allows choosing from a predefined set of glob pattern. Available presets are `PHP` and `JavaScript`.
 With `PHP` being the default.
@@ -446,9 +446,9 @@ Each response always includes `command`, `status` (`success` or `failure`), and 
 ## Model Context Protocol (MCP) integration
 
 The lean package validator can also be used by AI coding agents through its dedicated
-[Model Context Protocol (MCP) server](https://github.com/raphaelstolt/lean-package-validator-mcp).
+[Model Context Protocol (MCP) server](https://github.com/lean-packages/lean-package-validator-mcp).
 
-The [`lean-package-validator-mcp`](https://github.com/raphaelstolt/lean-package-validator-mcp) server exposes lean-package-validator functionality as MCP tools, allowing
+The [`lean-package-validator-mcp`](https://github.com/lean-packages/lean-package-validator-mcp) server exposes lean-package-validator functionality as MCP tools, allowing
 MCP-compatible clients and AI coding agents to inspect, create, update, and validate `.gitattributes` files and package
 archives.
 
@@ -460,13 +460,13 @@ composer require --dev stolt/lean-package-validator-mcp
 
 The server can then be configured in an MCP-compatible client such as Claude Code, Cursor, or another MCP client.
 
-See the [lean-package-validator-mcp repository](https://github.com/raphaelstolt/lean-package-validator-mcp) for installation and usage instructions.
+See the [lean-package-validator-mcp repository](https://github.com/lean-packages/lean-package-validator-mcp) for installation and usage instructions.
 
 ## Spreading the word
 You can add the following custom, static [Shields.io](http://shields.io) badge to your repo's `README.md` to mark the package as lean
 and spread the word for this tool. It is also _welcome_ to keep the added headers to the modified `.gitattributes` files.
 
-[![Lean dist package](https://img.shields.io/badge/lean-dist%20package-00ffb6.svg?style=flat)](https://github.com/raphaelstolt/lean-package-validator)
+[![Lean dist package](https://img.shields.io/badge/lean-dist%20package-00ffb6.svg?style=flat)](https://github.com/lean-packages/lean-package-validator)
 
 ## AI disclaimer
 
@@ -494,5 +494,5 @@ for more advice.
 
 ## Related projects
 
-- [cargo-lean](https://github.com/raphaelstolt/cargo-lean) — The `Rust` equivalent.
-- [py-lean](https://github.com/raphaelstolt/py-lean) — The `Python` equivalent.
+- [cargo-lean](https://github.com/lean-packages/cargo-lean) — The `Rust` equivalent.
+- [py-lean](https://github.com/lean-packages/py-lean) — The `Python` equivalent.
