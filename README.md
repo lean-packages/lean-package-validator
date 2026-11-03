@@ -496,3 +496,4 @@ for more advice.
 
 - [cargo-lean](https://github.com/lean-packages/cargo-lean) — The `Rust` equivalent.
 - [py-lean](https://github.com/lean-packages/py-lean) — The `Python` equivalent.
+- [js-lean](https://github.com/lean-packages/js-lean) — The `JavaScript` equivalent.
