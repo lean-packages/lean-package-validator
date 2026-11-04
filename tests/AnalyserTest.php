@@ -1935,7 +1935,6 @@ CONTENT;
             'composer-dependency-analyser*',
             'ecs*',
             'infection*',
-            'extension.neon',
             'package*',
             'peck.json',
             'phpinsights*',
@@ -1970,6 +1969,22 @@ CONTENT;
         $this->assertEquals(
             $expectedDefaultGlobPatterns,
             $defaultGlobPattern
+        );
+    }
+
+    #[Test]
+    #[Group('glob')]
+    public function extensionNeonIsNotInDefaultGlobPatterns(): void
+    {
+        $analyser = $this->getAnalyserInstance();
+        $analyser->getActualExportIgnoreAnalyser()->setDirectory($this->temporaryDirectory);
+
+        $defaultGlobPattern = $analyser->getActualExportIgnoreAnalyser()->getDefaultGlobPattern();
+
+        $this->assertNotContains(
+            'extension.neon',
+            $defaultGlobPattern,
+            'extension.neon should not be export-ignored in the default glob patterns'
         );
     }
 }

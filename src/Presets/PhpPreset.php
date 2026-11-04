@@ -19,7 +19,6 @@ final class PhpPreset extends CommonPreset implements Preset
             'composer-dependency-analyser*',
             'collision-detector*',
             'captainhook.json',
-            'extension.neon',
             'peck.json',
             'infection*',
             'phpstan*',
