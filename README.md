@@ -1,5 +1,10 @@
 # Lean package validator
 
+> [!WARNING]
+> __Development of `lean-package-validator` has been discontinued.__
+>
+> This project is no longer maintained. Please migrate to [`php-lean`](https://github.com/lean-packages/php-lean), which is the active successor.
+
 ![Test Status](https://github.com/lean-packages/lean-package-validator/workflows/test/badge.svg)
 [![Version](http://img.shields.io/packagist/v/stolt/lean-package-validator.svg?style=flat)](https://packagist.org/packages/stolt/lean-package-validator)
 ![PHP Version](https://img.shields.io/badge/php-8.2+-ff69b4.svg)
