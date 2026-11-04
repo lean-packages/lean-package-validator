@@ -173,8 +173,8 @@ The `--enforce-alignment` option will enforce a strict alignment of export-ignor
 in the `.gitattributes` file and fail validation if they aren't aligned. Per __default__,
 no alignment is enforced.
 
-The `--preset=[<preset>]` option will use a predefined set of glob pattern. Available presets are `PHP` and `JavaScript`.
-With `PHP` being the default.
+The `--preset=[<preset>]` option will use a predefined set of glob pattern. The available preset is `PHP`,
+which is also the default.
 
 The `--validate-git-archive` option will validate that no common repository artefacts slip
 into the release/dist archive file. It will do so by creating a `temporary` archive from the
@@ -286,8 +286,8 @@ lean-package-validator init [<directory>]
 
 The `--overwrite|-o` option overwrites an existing `.lpv` file. Also, see the [refresh](https://github.com/lean-packages/lean-package-validator?tab=readme-ov-file#configuration-refresh-command) command.
 
-The `--preset` option allows choosing from a predefined set of glob pattern. Available presets are `PHP` and `JavaScript`.
-With `PHP` being the default.
+The `--preset` option allows choosing from a predefined set of glob pattern. The available preset is `PHP`,
+which is also the default.
 
 The `--dry-run` option will show the content of the `.lpv` file that would be created.
 
@@ -302,8 +302,8 @@ lean-package-validator refresh [<directory>]
 
 The command expects a present `.lpv` file in the target directory and will fail if none is existent.
 
-The `--preset` option allows choosing from a predefined set of glob pattern. Available presets are `PHP` and `JavaScript`.
-With `PHP` being the default.
+The `--preset` option allows choosing from a predefined set of glob pattern. The available preset is `PHP`,
+which is also the default.
 
 The `--dry-run` option shows the refreshed `.lpv` content without writing any changes to disk.
 

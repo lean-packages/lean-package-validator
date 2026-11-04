@@ -10,6 +10,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Fixed
 - The headers have been updated to the new lean-package-validator GitHub URL.
 
+### Removed
+- The `JavaScript` preset is also removed as the JavaScript packaging doesn't operate on a `.gitattributes` file.
+
 ## [v6.4.0] - 2026-10-27
 
 ### Removed

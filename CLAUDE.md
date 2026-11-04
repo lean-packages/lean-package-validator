@@ -52,7 +52,7 @@ validate-remote  Validate the .gitattributes file of a remote GitHub repository 
 
 - `bin/lean-package-validator` — CLI entry point
 - `src/Commands/` — CLI command classes
-- `src/Presets/` — Language presets (PHP, Python, Go, JavaScript, Rust)
+- `src/Presets/` — Language presets (PHP)
 - `src/` — Core classes (Analyser, Archive, Glob, Tree, etc.)
 - `tests/` — PHPUnit test suite mirroring `src/` structure
 - `resources/boost/skills/` — AI assistant skills
