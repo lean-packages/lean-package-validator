@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+### Fixed
+- The headers have been updated to the new lean-package-validator GitHub URL.
+
 ## [v6.4.0] - 2026-10-27
 
 ### Removed
