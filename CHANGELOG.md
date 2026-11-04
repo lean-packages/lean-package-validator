@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+## [v6.5.0] - 2026-11-04
+
 ### Fixed
 - The headers have been updated to the new lean-package-validator GitHub URL.
 - The file `extension.neon` is not excluded from the `.gitattributes` file.
@@ -641,8 +643,9 @@ Closes [#63](https://github.com/lean-packages/lean-package-validator/issues/63).
 
 - Initial release.
 
-[Unreleased]: https://github.com/lean-packages/lean-package-validator/compare/v6.4.0...HEAD
+[Unreleased]: https://github.com/lean-packages/lean-package-validator/compare/v6.5.0...HEAD
 
+[v6.5.0]: https://github.com/lean-packages/lean-package-validator/compare/v6.4.0...v6.5.0
 [v6.4.0]: https://github.com/lean-packages/lean-package-validator/compare/v6.3.2...v6.4.0
 [v6.3.2]: https://github.com/lean-packages/lean-package-validator/compare/v6.3.1...v6.3.2
 [v6.3.1]: https://github.com/lean-packages/lean-package-validator/compare/v6.3.0...v6.3.1
